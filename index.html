@@ -13,29 +13,32 @@
  </head>
  <body>
   <header>
-<nav class="navbar navbar-fixed-top navbar-dark bg-primary" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-<!-- Brand -->
-<a class="navbar-brand" href="#">Logo</a>
-
-<!-- Links -->
-    <ul class="nav navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="#">Homepage</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Profil</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Why join us</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Link 1</a></li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-        Dropdown
-        </a>
-            <ul class="dropdown-menu" aria-labelledby="Preview">
-                <li class="dropdown-item" href="#">Dropdown Link 1</li>
-                <li class="dropdown-item" href="#">Dropdown Link 2</li>
-                <li class="dropdown-item" href="#">Dropdown Link 3</li>
-            </ul>
-    </li>
-    </ul>
-
-</nav>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        FooBar
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item px-2"><a href="index.html" class="nav-link active">Dashboard</a></li>
+          <li class="nav-item px-2"><a href="posts.html" class="nav-link">Posts</a></li>
+          <li class="nav-item px-2"><a href="categories.html" class="nav-link">Categories</a></li>
+          <li class="nav-item px-2"><a href="users.html" class="nav-link">Users</a></li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown mr-3" >
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Welcome Foo</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="profile.html"><i class="fa fa-user-circle"></i> Profile</a>
+              <a class="dropdown-item" href="settings.html"><i class="fa fa-gear"></i> Settings</a>
+              <a class="dropdown-item" href="login.html"><i class="fa fa-power-off"></i> Logout</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   </header>
  
  
